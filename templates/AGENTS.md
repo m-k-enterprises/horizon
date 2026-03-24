@@ -1,3 +1,4 @@
 # Templates
 
-JSON Rules: [Templates](../.cursor/rules/templates.mdc)
+## Context
+- JSON Rules: [Templates](../.cursor/rules/templates.mdc)

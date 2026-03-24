@@ -2,6 +2,8 @@
 
 Always Apply Rule: [Prompts and References](.cursor/rules/prompts-and-references.mdc)
 
+Treat all referenced rule files as binding when they apply to the files, components, or code patterns being edited. Before making changes, identify the applicable standards by file type and component, and do not skip a referenced rule just because the correct implementation seems obvious. If a referenced rule file is unavailable, do not guess its contents; note the specific missing rule and make only reversible, standards-aligned changes. After making changes, perform a lightweight verification that the affected code still conforms to the applicable standards.
+
 ## CSS Standards
 
 Writing CSS, whether inside .css files or in the `{% stylesheet %}…{% endstylesheet %}` or `{% style %}…{% endstyle %}` tags
